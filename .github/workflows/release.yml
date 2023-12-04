@@ -22,7 +22,7 @@ jobs:
           #  cibw_archs: "auto32"
           - os: ubuntu-20.04
             cibw_archs: "aarch64"
-          - os: ubuntu-latest
+          - os: ubuntu-20.04
             cibw_archs: "ppc64le"
           - os: windows-2019
             cibw_archs: "auto64"
